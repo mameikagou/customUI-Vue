@@ -1,20 +1,12 @@
 <script setup lang="ts">
-import { ref } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import MouseTracker from "./vueuseCore/useMouse/test.vue";
 
-const title = ref<string>("Rspack + Vue");
 </script>
 
 <template>
 	<div>
-		<a href="https://www.rspack.dev/" target="_blank">
-			<img src="./assets/rspack.svg" class="logo" alt="Rspack logo" />
-		</a>
-		<a href="https://vuejs.org/" target="_blank">
-			<img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-		</a>
+		<MouseTracker />
 	</div>
-	<HelloWorld :msg="title" />
 </template>
 
 <style scoped>

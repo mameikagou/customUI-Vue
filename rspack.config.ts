@@ -54,6 +54,7 @@ export default defineConfig({
 			__VUE_PROD_DEVTOOLS__: false
 		}),
 		new VueLoaderPlugin() as RspackPluginFunction
+		
 	],
 	optimization: {
 		minimizer: [
