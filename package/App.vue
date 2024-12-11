@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import MouseTracker from "./vueuseCore/useMouse/test.vue";
-
+import DraggableTest from "@/components/VueDraggablePlus/test.vue"
 </script>
 
 <template>
 	<div>
-		<MouseTracker />
+		<!-- <MouseTracker /> -->
+		 <DraggableTest/>
 	</div>
 </template>
 

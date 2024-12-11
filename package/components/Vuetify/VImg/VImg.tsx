@@ -1,6 +1,6 @@
 import { genericComponent } from '@/utils/defineComponent';
 import { useRender } from '@/utils/useRender';
-import { VResponsive } from '@/components/VResponsive/VResponsive';
+import { VResponsive } from '@/components/Vuetify/VResponsive/VResponsive';
 
 export const VImg = genericComponent({
     setup() {
